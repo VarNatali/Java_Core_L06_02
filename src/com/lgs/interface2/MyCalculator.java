@@ -31,7 +31,7 @@ public class MyCalculator implements Numerable {
         return (this.a + this.b);
     }
 
-    void resView(double res){
+     public void resView(double res){
         System.out.println("Result= " +res);    }
 
 
