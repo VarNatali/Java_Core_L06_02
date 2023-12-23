@@ -3,27 +3,11 @@ package com.lgs.interface2;
 import com.lgs.lab.interface1.Numerable;
 
 public class MyCalculator implements Numerable {
-    private double a;
-    private double b;
+     double a;
+     double b;
 
     public MyCalculator(double a, double b) {
         this.a = a;
-        this.b = b;
-    }
-
-    public double getA() {
-        return a;
-    }
-
-    public void setA(double a) {
-        this.a = a;
-    }
-
-    public double getB() {
-        return b;
-    }
-
-    public void setB(double b) {
         this.b = b;
     }
 
@@ -46,4 +30,9 @@ public class MyCalculator implements Numerable {
     public double addFunсtion() {
         return (this.a + this.b);
     }
+
+    void resView(double res){
+        System.out.println("Result= " +res);    }
+
+
 }
